@@ -3,6 +3,7 @@ import styled from "styled-components";
 import PageUnavailableImage from "assets/images/404-image.png";
 
 const Wrapper = styled.div`
+  /* comment are not format automatically */
   height: calc(100vh - ${(props) => props.theme.headerHeight});
   background-color: #fafafa;
   text-align: center;
@@ -12,21 +13,24 @@ const Wrapper = styled.div`
     font-size: 24px;
   }
   .page-unavailable-img {
-    width: 35%;
+    width: 45%;
   }
   .button-position {
     margin: auto;
   }
 `;
 const RetryButton = styled.button`
-  background-color: #f3672a;
-  color: white;
+  /* background-color: #7b7b91; */
+  color: #434343;
   height: 40px;
-  width: 300px;
-  border: none;
+  min-width: 250px;
+  box-shadow: 1.5px 2.5px 1px #545454, 3px 5px 1px #545454;
+  border-width: 0.1em;
+  border-color: #8f8f8f;
+  border-radius: 0.3rem;
   cursor: pointer;
-  font-weight: 600;
-  font-size: 17px;
+  font-weight: 900;
+  font-size: 16px;
 `;
 
 function ServerUnavailable() {
@@ -38,6 +42,7 @@ function ServerUnavailable() {
         src={PageUnavailableImage}
       />
       <div>
+        <h1>Lol ssda</h1>
         <p className="bold-text">Appsmith server is unavailable</p>
         <p>Please try again after some time</p>
         <RetryButton onClick={() => window.location.reload()}>
