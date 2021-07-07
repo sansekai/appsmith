@@ -1,5 +1,12 @@
 // Color Names generated from http://chir.ag/projects/name-that-color
 export const Colors: Record<string, string> = {
+  PRIMARY: "#3366FF",
+  SECONDARY: "#2b2525",
+  SUCCESS: "#009966",
+  DANGER: "#cd3300",
+  NONE: "#2b2525",
+  WARNING: "#ffcc00",
+
   WHITE: "#FFFFFF",
   WHITE_SMOKE: "#F4F4F4",
   POLAR: "#E9FAF3",

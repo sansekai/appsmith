@@ -17,12 +17,11 @@ const {
 } = styledComponents as styledComponents.ThemedStyledComponentsModule<Theme>;
 
 export const IntentColors: Record<string, Color> = {
-  primary: Colors.GREEN,
-  success: Colors.PURPLE,
-  secondary: Colors.BLACK_PEARL,
-  danger: Colors.RED,
-  none: Colors.GEYSER_LIGHT,
-  warning: Colors.JAFFA,
+  primary: Colors.PRIMARY,
+  success: Colors.SUCCESS,
+  secondary: Colors.SECONDARY,
+  danger: Colors.DANGER,
+  none: Colors.WARNING,
 };
 
 export type Intent = typeof IntentColors[keyof typeof IntentColors];

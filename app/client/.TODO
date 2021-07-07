@@ -1,0 +1,6 @@
+UI:
+    ☐ Make layout reactive
+    ☐ CHange button to follow yezza ui
+
+Debugging:
+    1. Some admin account not loading left menu on first load. Need to enter another page fist, and back to load the menu component

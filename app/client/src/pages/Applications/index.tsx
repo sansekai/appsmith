@@ -214,13 +214,7 @@ const ApplicationContainer = styled.div`
     props.theme.homePage.leftPane.width +
     props.theme.homePage.leftPane.rightMargin +
     props.theme.homePage.leftPane.leftPadding}px;
-  width: calc(
-    100% -
-      ${(props) =>
-        props.theme.homePage.leftPane.width +
-        props.theme.homePage.leftPane.rightMargin +
-        props.theme.homePage.leftPane.leftPadding}px
-  );
+  width: 100vw;
   scroll-behavior: smooth;
 `;
 
